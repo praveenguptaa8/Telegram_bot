@@ -12,8 +12,6 @@ bot.help((ctx) => ctx.reply(`
     /help : To know the commands
     /greet : To get greeting
 
-    
-
     `))
 bot.command('greet', (ctx) => {
     ctx.reply('Namaste Sir');
